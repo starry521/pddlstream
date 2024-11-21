@@ -1,5 +1,13 @@
 # pddlstream
 
+> ***Note**: We have added some files based on this project to improve usability.*
+
+- PDDLStream.py： Provides task planning function for pddlstream submodules.
+- install.md: More detailed installation process based on the original project.
+- __init__.py: Define the interface that the submodule can call.
+- test(dir): input for test case.
+- test(dir): test case.
+
 PDDLStream is a planning framework comprised of an action language and suite of algorithms for Artificial Intelligence (AI) planning in the presence of sampling procedures.
 PDDLStream extends Planning Domain Definition Language (PDDL) by introducing streams, declarative specifications of sampling procedures.
 PDDLStream algorithms are domain independent and solve PDDLStream problems with only a blackbox description of each sampler.
